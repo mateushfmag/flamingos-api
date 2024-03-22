@@ -1,0 +1,14 @@
+{
+  "name": "flamingos-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "flamingo:gen": "node ./flamingoGenerator.js",
+    "start": "npm run flamingo:gen && node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
